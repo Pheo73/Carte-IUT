@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+	</style>
+	<title>Carte de L'IUT de Chambéry</title>
+</head>
+<body>
+	Réalisé par les étudiants de MMI
+<!--//////////////////////////////////
+	MAP
+//////////////////////////////////-->
+<div id="map__container">
+<svg id="map">
+	<g>
+		<g class="entree">
+			<path pec label d="M63.4,469.3c-32.1,0-58,25-58,55.8s26,55.8,58,55.8"/>
+		</g>
+		<g class="couloir">
+			<polyline pec label points="63.4,504.5 63.4,469.1 1895.1,469.1 1895.1,581.3 63.4,581.3 63.4,544.8 		"/>
+		</g>
+		<g class="cafeteria">
+			<polyline pec label points="325.8,581.3 441.9,581.3 441.9,776.8 145.4,776.8 145.4,581.3 266.8,581.3 		"/>
+		</g>
+		<g class="amphi1">
+			<polyline pec label points="803.2,581.3 876.7,581.3 876.7,831.2 681.6,831.2 681.6,581.3 755.2,581.3 		"/>
+		</g>
+		<g class="amphi2">
+			<polyline pec label points="1238.6,581.3 1312.8,581.3 1312.8,831.2 1117.8,831.2 1117.8,581.3 1196.9,581.3 		"/>
+		</g>
+		<g class="amphi3">
+			<polyline pec label points="1646.9,581.3 1721.1,581.3 1721.1,831.2 1526.1,831.2 1526.1,581.3 1605.2,581.3 		"/>
+		</g>
+		<g class="sgm">
+			<polyline pec label points="351.6,469.1 399.3,469.1 399.3,95.4 252.2,95.4 252.2,469.1 301.1,469.1 		"/>
+			<path pec label d="M399.3,96.8c0-40.6-32.9-73.6-73.6-73.6s-73.5,33-73.5,73.6"/>
+		</g>
+		<g class="gaco">
+			<polyline pec label points="882.3,469.1 934.9,469.1 934.9,95.4 787.8,95.4 787.8,469.1 841.1,469.1 		"/>
+			<path pec label d="M934.9,96.8c0-40.6-32.9-73.6-73.6-73.6s-73.5,33-73.5,73.6"/>
+		</g>
+		<g class="mmi">
+			<polyline pec label points="1445.3,469.1 1497.7,469.1 1497.7,95.4 1350.6,95.4 1350.6,469.1 1403.9,469.1 		"/>
+			<path pec label d="M1497.7,96.8c0-40.6-32.9-73.6-73.6-73.6c-40.6,0-73.6,32.9-73.6,73.6"/>
+		</g>
+		<g class="pec">
+			<polyline pec label points="1842.8,469.3 1895.1,469.3 1895.1,95.6 1748.1,95.6 1748.1,469.3 1801.4,469.3 		"/>
+			<path pec label d="M1895.1,97c0-40.6-32.9-73.6-73.6-73.6c-40.6,0-73.6,32.9-73.6,73.6"/>
+			<g class="gccd">
+				<polyline pec label points="1842.8,469.3 1895.1,469.3 1895.1,95.6 1748.1,95.6 1748.1,469.3 1801.4,469.3 		"/>
+				<path pec label d="M1895.1,97c0-40.6-32.9-73.6-73.6-73.6c-40.6,0-73.6,32.9-73.6,73.6"/>
+			</g>
+		</g>
+		<g>
+			<polyline class="fleche gccd" points="1822,219 1822,219 1822,219 1822,219 1822,219 		"/>
+			<polyline class="fleche sgm" points="1822,219 1821.6,525.2 322.5,526.9 322.5,284 		"/>
+			<polyline class="fleche pec" points="1822,219 1822,219 1822,219 1822,219 1822,219 		"/>
+			<polyline class="fleche gaco" points="1822,219 1821.6,525.2 858.9,526.9 858.9,284 		"/>
+			<polyline class="fleche mmi" points="1822,219 1821.6,525.2 1422,527.8 1422,287.1 		"/>
+			<polyline class="fleche cafeteria" points="1822,219 1821.6,525.2 291,527.8 291,688.2 		"/>
+			<polyline class="fleche amphi1" points="1822,219 1821.6,525.2 776.1,527.8 776,708.2 		"/>
+			<polyline class="fleche amphi2" points="1822,219 1821.6,525.2 1211.5,527.8 1212.3,708.2 		"/>
+			<polyline class="fleche amphi3" points="1822,219 1821.6,525.2 1628.5,527.8 1628.5,706.3 		"/>
+
+			<text transform="matrix(1 0 0 1 1839.4481 265.3262)" class="pec label"><tspan x="0" y="0" class="st0 st3 st4">PEC </tspan><tspan x="13.1" y="22.7" class="st0 st3 st4">&amp; </tspan><tspan x="-5.8" y="45.3" class="st0 st3 st4">GCCD</tspan></text>
+			<text transform="matrix(1 0 0 1 302.0576 269.8374)" class="sgm label">SGM</text>
+			<text transform="matrix(1 0 0 1 830.5674 269.8374)" class="gaco label">GACO</text>
+			<text transform="matrix(1 0 0 1 1403.1191 269.8374)" class="mmi label">MMI</text>
+			<text transform="matrix(1 0 0 1 739.3359 741.7207)" class="amphi1 label">AMPHI 110</text>
+			<text transform="matrix(1 0 0 1 1176.6152 741.7207)" class="amphi2 label">AMPHI 140</text>
+			<text transform="matrix(1 0 0 1 1581.1191 741.9473)" class="amphi3 label">AMPHI 160</text>
+			<text transform="matrix(1 0 0 1 239.1396 725.9912)" class="cafeteria label">CAFETERIA</text>
+
+			<circle class="pec pointer" cx="322.5" cy="285.6" r="7.9"/>
+			<circle class="gaco pointer" cx="858.9" cy="290.3" r="7.9"/>
+			<circle class="mmi pointer" cx="1422" cy="285.6" r="7.9"/>
+			<circle class="amphi1 pointer" cx="775.5" cy="702.4" r="7.9"/>
+			<circle class="amphi2 pointer" cx="1212.8" cy="702.4" r="7.9"/>
+			<circle class="amphi3 pointer" cx="1628.5" cy="701.3" r="7.9"/>
+			<circle class="cafeteria pointer" cx="291" cy="688.2" r="7.9"/>
+
+		</g>
+		<g id="position">
+			<circle class="st0" cx="1822" cy="212.8" r="15.7"/>
+			<circle class="st0" cx="1822" cy="212.8" r="20.4"/>
+			<text transform="matrix(1 0 0 1 1765.3706 189.2382)" class="st0 st3 st4">Vous êtes ici</text>
+		</g>
+	</g>
+</svg>
+</div>
+
+
+
+
+<!--//////////////////////////////////
+	INFO
+//////////////////////////////////-->
+<div id="wrap_info">
+<div class="wrap">
+	<h1>Perdu ?</h1>
+	<p>Cliquer sur la filière ou sur l'endroit que vous souhaitez découvrir. Enjoy !</p>
+</div>
+</div>
+<div id="wrap_time"><p></p></div>
+
+
+<!--//////////////////////////////////
+	CONTROLS
+//////////////////////////////////-->
+<div id="controls_container">
+	<a href="#gaco" class="gaco">GACO</a>
+	<a href="#gccd" class="gccd">GCCD</a>
+	<a href="#mmi" class="mmi">MMI</a>
+	<a href="#pec" class="pec">PEC</a>
+	<a href="#sgm" class="sgm">SGM</a>
+</div>
+
+
+<!--//////////////////////////////////
+	JAVASCRIPT
+//////////////////////////////////-->
+<script src="js/main.js"></script>
+<script src="js/app.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+	'gaco' : {
+		'title' : 'GACO',
+		'img' : 'img/gaco.jpg',
+		'content' : 'FORMATION POLYVALENTE EN GESTION POUR S\’INTÉGRER AUX  ÉQUIPES DIRIGEANTES COMME ASSISTANT : <br><br>•comptable et contrôle de gestion <br>•communication interne/externe <br>•marketing et commercial <br>•achats ou logistique <br>•gestionnaire en ressources <br> humaines <br>•conseiller clientèle en <br> banque/assurance...',
+		'link' : [ 'http://www.iut-chy.univ-savoie.fr/index.php/formations/les-dut/gaco', '+ En savoir plus' ],
+		'reunion' : ['A voir devant les salles concernées','']
+	},
+	'gccd' : {
+		'title' : 'GCCD',
+		'img' : 'img/gccd.jpg',
+		'content' : '',
+		'link' : [ 'http://www.iut-chy.univ-savoie.fr/index.php/formations/les-dut/gccd-alternance', '+ En savoir plus' ],
+		'reunion' : ['toutes les demi heures','']
+
+	},
+	'mmi' : {
+		'title' : 'MMI',
+		'img' : 'img/mmi.jpg',
+		'content' : '',
+		'link' : [ 'http://www.iut-chy.univ-savoie.fr/index.php/formations/les-dut/mmi', '' ],
+		'reunion' : ['9h30 - 10h30 salle 103 ', '10h00 - 11h00 salle 104 ','10h30 - 11h30 salle 103','11h00 - 12h00 salle 104 ', '13h00 - 14h00 salle 103','13h30- 14h30 salle 104 ','14h00 - 15h00 salle 103 et 14h30 - 15h30 salle 104']
+
+	},
+	'pec' : {
+		'title' : 'PEC',
+		'img' : 'img/pec.jpg',
+		'content' : 'Trois projets créatifs, encadrés par des designers professionnels. Comment innover dans l’emballage de cosmétiques, de bonbons, de légumes bio, de produits outdoor ? Explorez votre créativité !...',
+		'link' : [ 'http://www.iut-chy.univ-savoie.fr/index.php/formations/les-dut/pec', '+ En savoir plus' ],
+		'reunion' : ['A voir devant les salles concernées','']
+
+	},
+	'sgm' : {
+		'title' : 'SGM',
+		'img' : 'img/sgm.jpg',
+		'content' : '',
+		'link' : [ 'http://www.iut-chy.univ-savoie.fr/index.php/formations/les-dut/sgm', '+ En savoir plus' ],
+		'reunion' : ['A voir devant les salles concernées','']
+	},
+	'cafeteria' : {
+		'title' : 'CAFETERIA',
+		'content' : '',
+	},
+	'amphi1' : {
+		'title' : 'Amphi 1',
+		'content' : '',
+	},
+	'amphi2' : {
+		'title' : 'Amphi 2',
+		'content' : '',
+	},
+	'amphi3' : {
+		'title' : 'Amphi 3',
+		'content' : '',
+	},
+	'couloir' : {
+		'title' : 'Perdu ?',
+		'content' : 'Cliquer sur la filière ou sur l\'endroit que cous voulez. Enjoy !',
+		'link' : [ 'http://www.iut-chy.univ-savoie.fr/', '+ En savoir plus' ],
+	},
+	'entree' : {
+		'title' : 'Perdu ?',
+		'content' : 'Cliquer sur la filière ou sur l\'endroit que cous voulez. Enjoy !',
+		'link' : [ 'http://www.iut-chy.univ-savoie.fr/', '+ En savoir plus' ],
+	},
+	'position' : {
+		'title' : 'Vous êtes ici',
+		'content' : 'Cliquer sur la filière ou sur l\'endroit que cous voulez. Enjoy !',
+		'link' : [ 'http://www.iut-chy.univ-savoie.fr/', '+ En savoir plus' ],
+	}
