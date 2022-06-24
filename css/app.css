@@ -301,7 +301,7 @@ svg #position text{
 #wrap_info {
 	float: left;
 	width: 30%;
-	padding: 20px;
+	padding: 10px 20px 20px 20px;
 	height: calc(100% - 80px);
 }
 
@@ -426,6 +426,12 @@ svg #position text{
 	font-size: 30px;
 	margin-top: 10vh;
 	text-align: center;
+}
+
+.home{
+	text-decoration: none;
+	margin-right: 2vw;
+	margin-left: 2vw;
 }
 
 @media screen and (max-width: 1024px) {
